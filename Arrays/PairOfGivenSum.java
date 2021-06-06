@@ -1,7 +1,5 @@
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 
 /*
 Problem ~ Find a pair with given sum in an array
