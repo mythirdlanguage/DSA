@@ -1,11 +1,29 @@
 package linkedlist;
 
 public class LinkedList {
+	private static final boolean MAINTAIN_INSERTION_ORDER = true;
 	Node head;
 
 	public void add(Object obj) {
+		if (MAINTAIN_INSERTION_ORDER) {
+			addToTail(obj);
+			return;
+		}
 		Node newNode = new Node(obj, head);
 		head = newNode;
+	}
+	
+	private void addToTail(Object obj) {
+		Node newNode = new Node(obj, null);
+		if (head == null) {
+			head = newNode;
+			return;
+		}
+		Node temp = head;
+		while(temp.next != null) {
+			temp = temp.next;
+		}
+		temp.next = newNode;
 	}
 
 	public void remove(Object obj) {
