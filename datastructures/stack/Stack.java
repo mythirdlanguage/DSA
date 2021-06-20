@@ -1,7 +1,7 @@
 package stack;
 
 /*
- * Stack implementation in array
+ * Stack implementation using array
  */
 public class Stack {
 

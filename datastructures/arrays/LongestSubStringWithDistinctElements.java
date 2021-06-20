@@ -11,6 +11,11 @@ public class LongestSubStringWithDistinctElements {
 		}
 	}
 
+	/**
+	 * Uses sliding window algorithm
+	 * 
+	 * @param inputStr
+	 */
 	private static void printLongestSubStrWithDistinctElements(String inputStr) {
 		char[] elements = inputStr.toCharArray();
 		int left = 0, right = 0, start = 0, end = 0, maxLength = 0, currentLength;

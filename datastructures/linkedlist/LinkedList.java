@@ -1,5 +1,8 @@
 package linkedlist;
 
+/*
+ * Linked list implementation
+ */
 public class LinkedList {
 	private static final boolean MAINTAIN_INSERTION_ORDER = true;
 	Node head;
