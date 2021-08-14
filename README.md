@@ -8,5 +8,9 @@ Frequency of updation:
 
 I aim to practice/solve one problem per day and hence this repo will be updated everyday.
 
+About me:
+
+I'm Vivek :)
+
 
 
